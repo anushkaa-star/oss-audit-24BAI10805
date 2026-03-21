@@ -1,0 +1,5 @@
+error: something failed
+warning: check this
+error: file not found
+info: running process
+error: access denied
