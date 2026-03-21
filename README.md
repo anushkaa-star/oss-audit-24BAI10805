@@ -1,36 +1,43 @@
 # Open Source Software Audit - Python
+# OSS Course - Basic Shell Scripting Projects
 
-This project is part of the OSS NGMC course. It focuses on understanding Python as an open-source software and demonstrating Linux command-line skills using shell scripts.
+Hi! 👋 This repository has simple Bash shell scripts I created for my Open Source Software (OSS) course practicals at college.
 
-## Project Contents
+The main goal was to learn:
+- Basic Linux commands
+- Shell scripting basics
+- Python as an open-source tool
+- File handling & text processing in Linux
 
-- script1.sh → Displays system information
-- script2.sh → Checks if Python is installed
-- script3.sh → Shows directory details and permissions
-- script4.sh → Counts occurrences of a keyword in a file
-- script5.sh → Generates a simple manifesto file
+These are beginner-level scripts — just for practice and understanding the concepts.
 
-## Requirements
+## Scripts Included
 
-- Linux environment or Git Bash (Windows)
-- Basic terminal knowledge
+| Script       | Purpose                                          |
+|--------------|--------------------------------------------------|
+| script1.sh   | Shows basic system information                   |
+| script2.sh   | Checks if Python is installed                    |
+| script3.sh   | Displays directory details and permissions       |
+| script4.sh   | Counts occurrences of a keyword in a file        |
+| script5.sh   | Creates a simple text file (like a manifesto)    |
 
 ## How to Run
 
-Run the following commands in terminal:
+Open your terminal (Linux / Git Bash on Windows) and run:
 
-bash script1.sh
-bash script2.sh
-bash script3.sh
-bash script4.sh log.txt
-bash script5.sh
+bash script1.sh  
+bash script2.sh  
+bash script3.sh  
+bash script4.sh log.txt error  
+bash script5.sh  
 
-## Notes
+## Requirements
 
-- Script 4 requires log.txt file as input.
-- All scripts are executable via command line.
-- No GUI required.
+- Linux system or Git Bash (for Windows)
+- Basic knowledge of terminal
 
-## Conclusion
+## Note
 
-This project demonstrates the use of open-source tools and basic shell scripting in a Linux environment.
+script4.sh requires a file like log.txt to work properly.
+
+This project was implemented and tested by me as part of the course.
