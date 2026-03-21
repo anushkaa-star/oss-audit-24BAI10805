@@ -1,7 +1,6 @@
 # Open Source Software Audit - Python
-# OSS Course - Basic Shell Scripting Projects
 
-Hi! 👋 This repository has simple Bash shell scripts I created for my Open Source Software (OSS) course practicals at college.
+Hellloo!! This repository has simple Bash shell scripts I created for my Open Source Software (OSS) course project at college.
 
 The main goal was to learn:
 - Basic Linux commands
@@ -9,7 +8,7 @@ The main goal was to learn:
 - Python as an open-source tool
 - File handling & text processing in Linux
 
-These are beginner-level scripts — just for practice and understanding the concepts.
+These are beginner level scripts just for practice and understanding the concepts.
 
 ## Scripts Included
 
