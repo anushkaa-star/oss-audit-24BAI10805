@@ -1,15 +1,29 @@
 #!/bin/bash
 
-echo "Answer the following questions:"
+# Script 5: Open Source Manifesto Generator
+# This script creates a small manifesto based on user input
 
-read -p "1. Name one open-source tool you use: " TOOL
-read -p "2. What does freedom mean to you (one word)? " FREEDOM
-read -p "3. What would you build and share? " BUILD
+echo "Create your own Open Source Manifesto"
+echo "-------------------------------------"
 
-DATE=$(date)
-OUTPUT="manifesto.txt"
+# Taking input
+read -p "Enter one open-source tool you use daily: " TOOL
+read -p "What does freedom mean to you (one word)? " FREEDOM
+read -p "What would you like to build and share? " BUILD
 
-echo "On $DATE, I believe that using $TOOL gives me the freedom of $FREEDOM. I would like to build $BUILD and share it with others." > $OUTPUT
+# Date and file name
+TODAY=$(date)
+FILE="my_manifesto.txt"
 
-echo "Manifesto saved in $OUTPUT"
-cat $OUTPUT
+# Writing manifesto
+echo "Date: $TODAY" > $FILE
+echo "" >> $FILE
+echo "I believe open source is about $FREEDOM." >> $FILE
+echo "Tools like $TOOL help me learn and explore new things." >> $FILE
+echo "In the future, I want to build $BUILD and share it with everyone." >> $FILE
+
+# Output
+echo ""
+echo "Your manifesto has been saved in $FILE"
+echo ""
+cat $FILE
