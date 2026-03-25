@@ -1,18 +1,28 @@
 #!/bin/bash
 
-PACKAGE="python3"
+# Script 2: Check if Python is installed
 
-if command -v $PACKAGE &> /dev/null
+SOFTWARE="python3"
+
+# Check installation
+if dpkg -l | grep -q $SOFTWARE
 then
-    echo "$PACKAGE is installed"
-    $PACKAGE --version
-else
-    echo "$PACKAGE is not installed"
-fi
+    echo "$SOFTWARE is installed"
 
-case $PACKAGE in
-    python3) echo "Python: simple and powerful programming language" ;;
-    git) echo "Git: version control system" ;;
-    vlc) echo "VLC: media player" ;;
-    *) echo "Unknown package" ;;
-esac
+    # Get version
+    VERSION=$($SOFTWARE --version)
+    echo "Version: $VERSION"
+
+    # Description using case
+    case $SOFTWARE in
+        python3)
+            echo "Python: used for scripting, automation, and development"
+            ;;
+        *)
+            echo "Unknown software"
+            ;;
+    esac
+
+else
+    echo "$SOFTWARE is not installed"
+fi
