@@ -1,28 +1,33 @@
 # Open Source Software Audit - Python
 
-Hellloo!! This repository has simple Bash shell scripts I created for my Open Source Software (OSS) course project at college.
+Hello! This repository contains Bash shell scripts created as part of my Open Source Software (OSS) course project.
 
-The main goal was to learn:
-- Basic Linux commands
-- Shell scripting basics
-- Python as an open-source tool
-- File handling & text processing in Linux
+The goal of this project was to understand how open-source tools like Python work in a Linux environment and to practice basic shell scripting concepts.
 
-These are beginner level scripts just for practice and understanding the concepts.
+## What I Learned
+
+- Basic Linux commands and environment (using WSL - Ubuntu)
+- Shell scripting fundamentals
+- Checking software installation and version
+- Working with directories, permissions, and files
+- Reading and analyzing log files
+- Taking user input and generating output files
 
 ## Scripts Included
 
-| Script       | Purpose                                          |
-|--------------|--------------------------------------------------|
-| script1.sh   | Shows basic system information                   |
-| script2.sh   | Checks if Python is installed                    |
-| script3.sh   | Displays directory details and permissions       |
-| script4.sh   | Counts occurrences of a keyword in a file        |
-| script5.sh   | Creates a simple text file (like a manifesto)    |
+| Script       | Purpose |
+|--------------|--------|
+| script1.sh   | Displays system information (distro, kernel, user, uptime, etc.) |
+| script2.sh   | Checks if Python is installed and shows its version with description |
+| script3.sh   | Audits directories and displays their permissions and size |
+| script4.sh   | Reads a log file and counts keyword occurrences with summary |
+| script5.sh   | Generates a personalized open-source manifesto using user input |
 
 ## How to Run
 
-Open your terminal (Linux / Git Bash on Windows) and run:
+Open your terminal (WSL / Linux) and navigate to the folder containing the scripts.
+
+Run the following commands:
 
 bash script1.sh  
 bash script2.sh  
@@ -32,11 +37,15 @@ bash script5.sh
 
 ## Requirements
 
-- Linux system or Git Bash (for Windows)
-- Basic knowledge of terminal
+- Linux environment (Ubuntu via WSL recommended)
+- Basic terminal knowledge
 
-## Note
+## Notes
 
-script4.sh requires a file like log.txt to work properly.
+- script4.sh requires a log file (e.g., log.txt) as input.
+- All scripts were executed and tested in a Linux environment (WSL Ubuntu).
+- Each script demonstrates shell scripting concepts like loops, conditions, and file handling.
 
-This project was implemented and tested by me as part of the course.
+## Conclusion
+
+This project helped me understand how Linux and open-source tools work together and improved my practical knowledge of shell scripting and command-line usage.
