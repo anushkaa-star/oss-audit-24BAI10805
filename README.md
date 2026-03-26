@@ -1,4 +1,7 @@
 # Open Source Software Audit - Python
+Name: Anushka  
+Registration Number: 24BAI10805  
+Chosen Software: Python 
 
 Hello! This repository contains Bash shell scripts created as part of my Open Source Software (OSS) course project.
 
